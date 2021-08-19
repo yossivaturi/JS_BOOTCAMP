@@ -1,25 +1,44 @@
 import logo from './logo.svg';
 import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import Alert from './components/Alert ';
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Alert 
+        text="OMG! Something really bad has happended!"
+        color="red"
+         />
+        <Alert 
+        text="NICE MESSEAGE"
+        color="orange"
+         />
+
+         
     </div>
   );
 }
+
+//XP2
+// function App() {
+//   return (
+//     <div className="App">
+//         <Alert 
+//         text="OMG! Something really bad has happended!"
+//         show={false}
+//          />
+//         <Alert 
+//         text="NICE MESSEAGE"
+//         show={true}
+//          />
+
+         
+//     </div>
+//   );
+// }
 
 export default App;
