@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Color from './Components/Color'
+// import Color from './Components/Color'
 import React from 'react';
 
 
